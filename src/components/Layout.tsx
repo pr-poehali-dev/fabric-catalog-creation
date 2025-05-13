@@ -30,6 +30,13 @@ const Layout = () => {
               >
                 Каталог
               </Link>
+              <Link
+                to="/admin"
+                className="text-foreground/80 hover:text-foreground transition-colors"
+              >
+                <Icon name="Settings" className="h-4 w-4 inline mr-1" />
+                Управление
+              </Link>
               <Button variant="outline">
                 <Icon name="Search" className="h-4 w-4 mr-2" />
                 Поиск
